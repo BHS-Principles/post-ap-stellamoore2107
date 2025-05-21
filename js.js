@@ -1,13 +1,13 @@
+var BTN = document.getElementById("myButton");
 
-var LIST = [
-    "frozen burritos ",
-    "banana foster",
-    "egg mcmuffin with egg"
+var doThings = function(event){
+    alert("silly happy fun times");
+    console.log(event);
     
-];
-
-for(let i = 0; i < LIST.length; i++){
-
-alert("frozen burritos: " + LIST[i]);
-
 }
+for(var i = 0; i < 3; i++){
+    var newBTN = BTN.cloneNode(true);
+    document.body.append(newBTN);
+    newBTN.addEventListener("click", doThings);
+}
+
