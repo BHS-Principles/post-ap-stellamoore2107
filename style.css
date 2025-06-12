@@ -1,3 +1,29 @@
-button { 
-    background-color:blue;
-    color:white}
+body *{
+    display: inline-block;
+    position: relative;
+}
+
+body > script{display.none}
+
+#temp{
+    border: 10px solid;
+}
+
+/*
+.card{
+    width: 10rem;
+    height: 15rem;
+    background-color: blue;
+    background-image: url(cardcutsheet.svg);
+    background-size: 1300% 400%;}
+*/
+
+
+#dealbutton{
+    background-color: lightblue;
+    border: 5px solid;
+    border-color: black;
+    border-radius: 10px;
+    width: 8rem;
+    height: 4rem;
+}
